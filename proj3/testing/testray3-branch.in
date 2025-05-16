@@ -1,0 +1,16 @@
+# Create two branches and switch between them
+I prelude1.inc
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "Two cool files"
+<<<
+> branch cool
+<<<
+> checkout cool
+<<<
